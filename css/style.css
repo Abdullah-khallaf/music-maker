@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    padding-top:20%;
+    font-family: myriad;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10%;
+    font-size:48px;
+}
+.pads{
+    background-color: aqua;
+    width:100%;
+    display: flex;
+}
+.pads > div{
+    width:100px;
+    height: 100px;
+    flex: 1;
+    color:white;
+    font-size:40px;
+    text-align: center;
+    padding-top:30px;
+}
+.pad1{
+    background-color: #FF737F;
+}
+.pad2{
+    background-color: #E8CD8B;
+}
+.pad3{
+    background-color: #B3FFA6;
+}
+.pad4{
+    background-color: #8BC6E8;
+}
+.pad5{
+    background-color: #EC99FF;
+}
+.pad6{
+    background-color: #FFA250;
+}
+
